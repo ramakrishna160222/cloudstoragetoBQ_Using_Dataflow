@@ -1,0 +1,32 @@
+Cloud Storage To Bigquery using DataFlow Pipeline
+
+Create a storeage bucket and Bigquery Dataset
+place input file , java script file and JSON Schema
+Run DataFlow pipeline job to read cloud storage and write to BQ
+
+Here we are using CSV file for placing data(demo001_order_details_new.csv)
+JavaScript file is used to define How can we transform data(demo001_transform.js)
+JSON Schema is a bigquery schema to define columns.(demo001_schema.json)
+
+
+
+Create a Bucket and in that create a folder "demo".
+Upload all js,json,csv file to this folder.
+
+Create a BigQuery Dataset 
+Create a table
+
+Create a DataFlow Job "Textfile from Cloud Storage to Bigquery".
+Give the jobname
+Choose the location Choose the template
+
+Dataflow Model
+Text Files on Cloud Storage to BigQuery
+CloudStorage Input FIles
+geometric-vim-409715/demo/demo001_order_details_new.csv
+JSON File for Bigquery Schema
+Bigquery OUTput Table
+UDF path in storage and define function name
+
+Run Job 
+
